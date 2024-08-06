@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/LearnLifts/static/css/main.6c9fe367.css",
+    "main.js": "/LearnLifts/static/js/main.86b12180.js",
+    "static/media/home2.jpeg": "/LearnLifts/static/media/home2.353a04b7f5fe4e8b4f7d.jpeg",
+    "static/media/home1.jpg": "/LearnLifts/static/media/home1.6b1cdf0cf7fc710f6af9.jpg",
+    "static/media/b2.jpg": "/LearnLifts/static/media/b2.06568c948bad49d23a86.jpg",
+    "static/media/b3.jpg": "/LearnLifts/static/media/b3.7842a54210cc98169ef6.jpg",
+    "static/media/b4.jpg": "/LearnLifts/static/media/b4.4edf7b12acf4e2009396.jpg",
+    "static/media/b5.jpg": "/LearnLifts/static/media/b5.7e2ff5599a49c714c98c.jpg",
+    "static/media/Founder1.jpg": "/LearnLifts/static/media/Founder1.8df1167cc1ac1c0bc939.jpg",
+    "static/media/Aims3.jpg": "/LearnLifts/static/media/Aims3.0eef7fe0237573411cd0.jpg",
+    "static/media/Aims1.jpg": "/LearnLifts/static/media/Aims1.a356b37fabe1615e2fe9.jpg",
+    "static/media/b1.jpg": "/LearnLifts/static/media/b1.8ed87a6e4e1bbf353e6a.jpg",
+    "static/media/Aim4.jpg": "/LearnLifts/static/media/Aim4.576de73a5bc7483bf1c0.jpg",
+    "static/media/Founder3.jpg": "/LearnLifts/static/media/Founder3.3afcdf092966b7a62c6d.jpg",
+    "static/media/Founder2.jpg": "/LearnLifts/static/media/Founder2.90f2f611401b7bdcc02d.jpg",
+    "static/media/Aims2.jpg": "/LearnLifts/static/media/Aims2.7c5e169cce05df9911b9.jpg",
+    "static/media/goodone.jpg": "/LearnLifts/static/media/goodone.23389bc4ad4855749967.jpg",
+    "static/media/ford.jpg": "/LearnLifts/static/media/ford.e05e83bb8610773f5b84.jpg",
+    "static/media/teaching.jpeg": "/LearnLifts/static/media/teaching.e2c81a1ed25be5fc1b87.jpeg",
+    "static/media/unicef.jpg": "/LearnLifts/static/media/unicef.c02107db4962bca3655b.jpg",
+    "static/media/save.jpg": "/LearnLifts/static/media/save.958f9779cb4867c5c749.jpg",
+    "static/media/footer.svg": "/LearnLifts/static/media/footer.f7b67a1234a7ce02c909.svg",
+    "index.html": "/LearnLifts/index.html",
+    "static/media/hero-bg.svg": "/LearnLifts/static/media/hero-bg.2237f2b6be81c21a80a6.svg",
+    "main.6c9fe367.css.map": "/LearnLifts/static/css/main.6c9fe367.css.map",
+    "main.86b12180.js.map": "/LearnLifts/static/js/main.86b12180.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c9fe367.css",
+    "static/js/main.86b12180.js"
+  ]
+}
