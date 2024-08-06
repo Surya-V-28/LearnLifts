@@ -1,0 +1,245 @@
+/* General Styles */
+.no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+}
+
+.cards-container {
+    display: flex;
+    overflow-x: auto; /* Allows horizontal scrolling */
+    overflow-y: hidden; /* Hides vertical scrollbar */
+    padding: 10px; /* Adjust padding as needed */
+    gap: 10px; /* Space between cards */
+}
+
+.card {
+    flex: 0 0 auto; /* Prevent flex items from growing or shrinking */
+    width: 300px; /* Fixed width */
+    height: auto; /* Auto height for better fit */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    margin: 10px; /* Adjust as needed */
+}
+
+/* Style for the cards container */
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 16px;
+}
+
+/* Style for each card */
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 250px; /* Adjust the width for a rectangular format */
+    margin-bottom: 16px;
+}
+
+.card img {
+    width: 100%;
+    height: 150px; /* Adjust height to maintain rectangular format */
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 16px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 8px;
+    color: #2d3748; /* Dark gray color */
+}
+
+.card-description {
+    font-size: 0.9rem;
+    margin-bottom: 16px;
+    color: #4a5568; /* Medium gray color */
+}
+
+.card-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3182ce; /* Blue color */
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.card-button:hover {
+    background-color: #2b6cb0; /* Darker blue color */
+}
+
+.register-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.time-left {
+    color: #e53e3e; /* Default Red */
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 0.8rem; /* Adjust font size */
+}
+
+.time-left.warning {
+    color: #f6ad55; /* Orange for warning */
+}
+
+.time-left.danger {
+    color: #c53030; /* Darker red for danger */
+}
+
+.register-button {
+    background-color: #38a169; /* Green color */
+    color: white;
+}
+
+.register-button:hover {
+    background-color: #2f855a; /* Darker green color */
+}
+
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card-content {
+    flex: 1; /* Takes up remaining space */
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    overflow: hidden;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.card-description {
+    font-size: 1rem;
+    line-height: 1.5;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Limits text to 3 lines */
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    margin-bottom: 16px; /* Space between description and button */
+}
+
+.card-button {
+    align-self: center; /* Center the button */
+    margin-bottom: 16px; /* Space from the bottom of the card */
+    padding: 10px 20px; /* Adjust padding as needed */
+    text-decoration: none;
+    color: white;
+    background-color: #007f00; /* Adjust color as needed */
+    border-radius: 5px;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-button:hover {
+    background-color: #005600; /* Adjust hover color as needed */
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .cards-container {
+        padding: 8px;
+        gap: 8px;
+    }
+
+    .card {
+        width: 250px; /* Adjust card width for smaller screens */
+        height: auto; /* Auto height for better fit */
+    }
+
+    .card-content {
+        padding: 12px; /* Adjust padding for smaller screens */
+    }
+
+    .card-title {
+        font-size: 1.1rem; /* Smaller title font size */
+    }
+
+    .card-description {
+        font-size: 0.9rem; /* Smaller description font size */
+    }
+
+    .card-button {
+        padding: 8px 16px; /* Adjust button padding */
+        font-size: 0.9rem; /* Smaller button font size */
+    }
+}
+
+@media (max-width: 480px) {
+    .cards-container {
+        padding: 6px;
+        gap: 6px;
+    }
+
+    .card {
+        width: 200px; /* Further adjust card width for very small screens */
+    }
+
+    .card-content {
+        padding: 8px; /* Further adjust padding */
+    }
+
+    .card-title {
+        font-size: 1rem; /* Further reduce title font size */
+    }
+
+    .card-description {
+        font-size: 0.8rem; /* Further reduce description font size */
+    }
+
+    .card-button {
+        padding: 6px 12px; /* Further adjust button padding */
+        font-size: 0.8rem; /* Further reduce button font size */
+    }
+}
+
+
+.time-left {
+    color: #e53e3e; /* Default Red */
+    margin-bottom: 3px;
+    font-weight: bold;
+    font-size: 0.8rem; /* Adjust font size */
+}
+
+.time-left.warning {
+    color: #f6ad55; /* Orange for warning */
+}
+
+.time-left.danger {
+    color: #c53030; /* Darker red for danger */
+}

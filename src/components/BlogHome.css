@@ -1,0 +1,36 @@
+
+/* Add this CSS to your stylesheet or in a <style> tag */
+.hide-scrollbar::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+}
+
+.hide-scrollbar {
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+    scrollbar-width: none; /* For Firefox */
+}
+
+.blog-title {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    color: #2d3748; /* Tailwind's text-gray-800 */
+    transition: color 0.3s ease;
+}
+
+.blog-title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px; /* Adjust to fit your design */
+    width: 100%;
+    height: 2px; /* Thickness of the underline */
+    background-color: #2b6cb0; /* Tailwind's blue-600 */
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease;
+}
+
+.blog-title:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
