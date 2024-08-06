@@ -5,7 +5,8 @@ import './index.css';
 import {
   BrowserRouter as Router,
   Routes,
-  Route
+  Route, 
+  Navigate
 } from 'react-router-dom';
 // All pages
 import Home from './pages/Home';
@@ -47,6 +48,7 @@ function App() {
             <Route exact path="/blog" element={<BlogHome />} />
           <Route path="/blog/1" element={<BlogPost1 />} />
           <Route path="/blog/2" element={<BlogPost2 />} />
+          <Route path="*" element={<Navigate to="/" />} />
           
           </Routes>
         </ScrollToTop>

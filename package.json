@@ -1,6 +1,5 @@
 {
-  "homepage" : "https://surya-v-28.github.io/LearnLifts/",
-  "name": "learnslift",
+
   "version": "0.1.0",
   "private": true,
   "dependencies": {
