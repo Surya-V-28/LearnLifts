@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/LearnLifts/static/css/main.6c9fe367.css",
-    "main.js": "/LearnLifts/static/js/main.86b12180.js",
+    "main.js": "/LearnLifts/static/js/main.928fda1a.js",
     "static/media/home2.jpeg": "/LearnLifts/static/media/home2.353a04b7f5fe4e8b4f7d.jpeg",
     "static/media/home1.jpg": "/LearnLifts/static/media/home1.6b1cdf0cf7fc710f6af9.jpg",
     "static/media/b2.jpg": "/LearnLifts/static/media/b2.06568c948bad49d23a86.jpg",
@@ -25,10 +25,10 @@
     "index.html": "/LearnLifts/index.html",
     "static/media/hero-bg.svg": "/LearnLifts/static/media/hero-bg.2237f2b6be81c21a80a6.svg",
     "main.6c9fe367.css.map": "/LearnLifts/static/css/main.6c9fe367.css.map",
-    "main.86b12180.js.map": "/LearnLifts/static/js/main.86b12180.js.map"
+    "main.928fda1a.js.map": "/LearnLifts/static/js/main.928fda1a.js.map"
   },
   "entrypoints": [
     "static/css/main.6c9fe367.css",
-    "static/js/main.86b12180.js"
+    "static/js/main.928fda1a.js"
   ]
 }
