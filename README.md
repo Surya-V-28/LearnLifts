@@ -18,7 +18,6 @@ This project was developed in 3 days for a hackathon with the theme of creating 
 - **Styling**: Tailwind CSS
 - **State Management**: Redux
 - **Tools**: Webpack, Babel, ESLint
-- **Backend (Optional)**: Node.js / Express (if API integration is required)
 
 ## Installation and Setup
 
@@ -31,7 +30,9 @@ This project was developed in 3 days for a hackathon with the theme of creating 
 git clone https://github.com/your-username/ngo-website.git
 cd ngo-website
 ```
-
+```bash
+npm run dev
+```
 
 ## Screenshots
 
