@@ -1,6 +1,6 @@
 # NGO Website - Hackathon Project
 
-![NGO Banner](./path-to-your-image/banner.png)
+![Landing Page](https://github.com/Surya-V-28/LearnLifts/blob/main/readme-image/homepage.png)
 
 ## Overview
 This project was developed in 3 days for a hackathon with the theme of creating a website for an NGO. The NGO aims to provide education to underprivileged children. The website is built using **React**, styled with **Tailwind CSS**, and uses **Redux** for state management. The app is mobile-responsive, engaging, and highlights the NGO's core values and mission.
