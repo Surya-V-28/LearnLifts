@@ -36,16 +36,28 @@ cd ngo-website
 ## Screenshots
 
 ### Landing Page
-![Landing Page](https://via.placeholder.com/800x400.png?text=Landing+Page+Screenshot)
+![Landing Page](https://github.com/Surya-V-28/LearnLifts/blob/main/readme-image/homepage.png)
+![Landing Page 2 ](https://github.com/Surya-V-28/LearnLifts/blob/main/readme-image/home2.png)
 
 ### About Us Section
-![About Us Section](https://via.placeholder.com/800x400.png?text=About+Us+Section+Screenshot)
+![About Us Section](https://github.com/Surya-V-28/LearnLifts/blob/main/readme-image/landing.png)
+![About Us Section 2 ](https://github.com/Surya-V-28/LearnLifts/blob/main/readme-image/landing-2.png)
 
 ### Projects Section
-![Projects Section](https://via.placeholder.com/800x400.png?text=Projects+Section+Screenshot)
+![Projects Register 1 ](https://github.com/Surya-V-28/LearnLifts/blob/main/readme-image/events.png)
 
 ### Volunteer Form
-![Volunteer Form](https://via.placeholder.com/800x400.png?text=Volunteer+Form+Screenshot)
+![Volunteer Form](https://github.com/Surya-V-28/LearnLifts/blob/main/readme-image/contributepage.png)
+![Volunteer Form 2 ](https://github.com/Surya-V-28/LearnLifts/blob/main/readme-image/formRegister.png)
+![Volunteer Form 3 ](https://github.com/Surya-V-28/LearnLifts/blob/main/readme-image/payments.png)
+
+### Sponsors Section
+![Projects Section](https://github.com/Surya-V-28/LearnLifts/blob/main/readme-image/sponsors.png)
 
 ### Blog Section
-![Blog Section](https://via.placeholder.com/800x400.png?text=Blog+Section+Screenshot)
+![Blog Section](https://github.com/Surya-V-28/LearnLifts/blob/main/readme-image/Blogs.png)
+
+### Footer Page 
+![Footer Section](https://github.com/Surya-V-28/LearnLifts/blob/main/readme-image/footer.png)
+
+
