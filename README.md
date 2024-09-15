@@ -29,26 +29,6 @@ This project was developed in 3 days for a hackathon with the theme of creating 
 - **Deployment**: Vercel/Netlify (mention your hosting service)
 - **Tools**: Webpack, Babel, ESLint, Prettier
 
-## Future Improvements
-- Adding user authentication for personalizing the volunteer experience.
-- Expanding the **Blog Section** to allow dynamic content creation from an admin panel.
-- Incorporating a chat support feature using WebSockets for real-time communication.
-
-
-## Installation and Setup
-
-### Prerequisites
-- Node.js & npm installed
-
-### Clone the repository
-
-```bash
-git clone https://github.com/your-username/ngo-website.git
-cd ngo-website
-```
-```bash
-npm run dev
-```
 
 ## Screenshots
 
@@ -74,7 +54,30 @@ npm run dev
 ### Blog Section
 ![Blog Section](https://github.com/Surya-V-28/LearnLifts/blob/main/readme-image/Blogs.png)
 
+
 ### Footer Page 
 ![Footer Section](https://github.com/Surya-V-28/LearnLifts/blob/main/readme-image/footer.png)
 
+
+
+## Future Improvements
+- Adding user authentication for personalizing the volunteer experience.
+- Expanding the **Blog Section** to allow dynamic content creation from an admin panel.
+- Incorporating a chat support feature using WebSockets for real-time communication.
+
+
+## Installation and Setup
+
+### Prerequisites
+- Node.js & npm installed
+
+### Clone the repository
+
+```bash
+git clone https://github.com/your-username/ngo-website.git
+cd ngo-website
+```
+```bash
+npm run dev
+```
 
